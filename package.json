@@ -19,8 +19,14 @@
   "homepage": "https://github.com/patsmth3/liri-app#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "client": "0.0.1",
     "dotenv": "^6.2.0",
+    "keys": "^0.1.2",
     "moment": "^2.24.0",
-    "node-spotify-api": "^1.0.7"
-  }
+    "node-spotify-api": "^1.0.7",
+    "spotify": "^0.3.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
 }
