@@ -12,3 +12,20 @@ patch:
   'npm:ws:20160104':
     - client > socket.io-client > engine.io-client > ws:
         patched: '2021-08-09T16:39:13.916Z'
+  SNYK-JS-LODASH-567746:
+    - node-spotify-api > request-promise > request-promise-core > lodash:
+        patched: '2021-08-09T16:40:00.208Z'
+  'npm:mime:20170907':
+    - client > winston > request > mime:
+        patched: '2021-08-09T16:40:00.208Z'
+    - client > winston > request > form-data > mime:
+        patched: '2021-08-09T16:40:00.208Z'
+  'npm:qs:20140806-1':
+    - client > winston > request > qs:
+        patched: '2021-08-09T16:40:00.208Z'
+  'npm:request:20160119':
+    - client > winston > request:
+        patched: '2021-08-09T16:40:00.208Z'
+  'npm:ws:20160920':
+    - client > socket.io-client > engine.io-client > ws:
+        patched: '2021-08-09T16:40:00.208Z'
