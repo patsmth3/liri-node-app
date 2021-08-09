@@ -3,20 +3,12 @@ version: v1.21.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
-  SNYK-JS-LODASH-567746:
+  SNYK-JS-LODASH-450202:
     - node-spotify-api > request-promise > request-promise-core > lodash:
-        patched: '2021-08-09T16:38:33.954Z'
-  'npm:mime:20170907':
-    - client > winston > request > mime:
-        patched: '2021-08-09T16:38:33.954Z'
-    - client > winston > request > form-data > mime:
-        patched: '2021-08-09T16:38:33.954Z'
-  'npm:qs:20140806-1':
+        patched: '2021-08-09T16:39:13.916Z'
+  'npm:qs:20140806':
     - client > winston > request > qs:
-        patched: '2021-08-09T16:38:33.954Z'
-  'npm:request:20160119':
-    - client > winston > request:
-        patched: '2021-08-09T16:38:33.954Z'
-  'npm:ws:20160920':
+        patched: '2021-08-09T16:39:13.916Z'
+  'npm:ws:20160104':
     - client > socket.io-client > engine.io-client > ws:
-        patched: '2021-08-09T16:38:33.954Z'
+        patched: '2021-08-09T16:39:13.916Z'
